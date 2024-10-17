@@ -1,4 +1,4 @@
-# 🔍Automated File Search & Download Tool
+# 🔍 Automated File Search & Download Tool
 
 Welcome to Automated File Search & Download Tool! 🚀 This program is your go-to solution for searching and downloading specific files from a given domain, all powered by the awesome capabilities of Google Dorking via SerpAPI. Say goodbye to manual file searches, and let automation do the heavy lifting for you! 💪
 
