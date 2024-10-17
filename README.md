@@ -1,4 +1,4 @@
-# Automated File Search & Download Tool
+# 🔍Automated File Search & Download Tool
 
 Welcome to Automated File Search & Download Tool! 🚀 This program is your go-to solution for searching and downloading specific files from a given domain, all powered by the awesome capabilities of Google Dorking via SerpAPI. Say goodbye to manual file searches, and let automation do the heavy lifting for you! 💪
 
@@ -24,17 +24,17 @@ Follow the steps below to set up and run the program on your local machine:
 
 Python 3.x
 
-SerpAPI API Key: This is required to use Google Search capabilities. You can get an API key by signing up at SerpAPI.
+**SerpAPI API Key**: This is required to use Google Search capabilities. You can get an API key by signing up at SerpAPI.
 
 **Installation**
 
-Clone this repository to your local machine:
+1. Clone this repository to your local machine:
 
 ```bash
 git clone https://github.com/Kentox493/Sercing.git
 cd Sercing
 ```
-1. Install the required dependencies using pip:
+2. Install the required dependencies using pip:
 
 ```bash
 pip install -r requirements.txt
@@ -81,13 +81,13 @@ The program will then use Google Dorking to search for files matching your crite
     ╚══════╝╚══════╝╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝
               Automated File Search & Download Tool
 
-🌐 Masukkan nama domain (contoh: example.com): example.com
-📂 Masukkan ekstensi file yang ingin dicari (contoh: pdf, docx, kosongkan untuk semua): pdf, docx
-💾 Masukkan folder untuk menyimpan file: downloads
-🔑 Masukkan API key SerpAPI Anda: YOUR_API_KEY
+- 🌐 Masukkan nama domain (contoh: example.com): example.com
+- 📂 Masukkan ekstensi file yang ingin dicari (contoh: pdf, docx, kosongkan untuk semua): pdf, docx
+- 💾 Masukkan folder untuk menyimpan file: downloads
+- 🔑 Masukkan API key SerpAPI Anda: YOUR_API_KEY
 
-🔍 Proses pencarian sedang berlangsung...
-📄 File yang ditemukan:
+- 🔍 Proses pencarian sedang berlangsung...
+- 📄 File yang ditemukan:
 ─────────────────────────────────────────────────────────
 1. report.pdf
 2. summary.docx
@@ -97,8 +97,8 @@ The program will then use Google Dorking to search for files matching your crite
 
 ## 📂 File Structure
 
-- sercing.py: The main script that performs the file search and download.
-- requirements.txt: Lists the required dependencies for the project.
+- **sercing.py**: The main script that performs the file search and download.
+- **requirements.txt**: Lists the required dependencies for the project.
 
 ## 📚 How It Works
 
@@ -110,15 +110,15 @@ The program will then use Google Dorking to search for files matching your crite
 
 ## 🛠 Troubleshooting
 
-No Results Found: Ensure that the domain entered is correct and has publicly accessible files. Also, check your API key and rate limits on SerpAPI.
+**No Results Found**: Ensure that the domain entered is correct and has publicly accessible files. Also, check your API key and rate limits on SerpAPI.
 
-API Errors: Make sure your API key is valid and that you have enough search quota left for your SerpAPI account.
+**API Errors**: Make sure your API key is valid and that you have enough search quota left for your SerpAPI account.
 
 ## 💡 Tips
 
-Make sure to input the domain without "http://" or "https://".
+- Make sure to input the domain without "http://" or "https://".
 
-You can enter multiple file extensions separated by commas (e.g., pdf, xlsx, zip).
+- You can enter multiple file extensions separated by commas (e.g., pdf, xlsx, zip).
 
 ## ⚠️ Disclaimer
 
