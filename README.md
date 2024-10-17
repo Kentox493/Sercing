@@ -1,8 +1,10 @@
-Automated File Search & Download Tool
+# Automated File Search & Download Tool
 
 Welcome to Automated File Search & Download Tool! 🚀 This program is your go-to solution for searching and downloading specific files from a given domain, all powered by the awesome capabilities of Google Dorking via SerpAPI. Say goodbye to manual file searches, and let automation do the heavy lifting for you! 💪
 
-🌟 Features
+---
+
+## 🌟 Features
 
 Search Files Using Dorking: Input a domain and use dorking techniques to find specific file types like PDFs, DOCXs, ZIPs, and more.
 
@@ -12,60 +14,64 @@ Download Files Directly: Choose the file you want from the search results and do
 
 User-Friendly Interface: Includes ASCII art and a step-by-step guide to ensure an easy and enjoyable user experience.
 
-🎉 Getting Started
+---
+
+## 🎉 Getting Started
 
 Follow the steps below to set up and run the program on your local machine:
 
-Prerequisites
+**Prerequisites**
 
 Python 3.x
 
 SerpAPI API Key: This is required to use Google Search capabilities. You can get an API key by signing up at SerpAPI.
 
-Installation
+**Installation**
 
 Clone this repository to your local machine:
 
-git clone https://github.com/yourusername/automated-file-search-tool.git
-cd automated-file-search-tool
+```bash
+git clone https://github.com/Kentox493/Sercing.git
+cd Sercing
+```
+1. Install the required dependencies using pip:
 
-Install the required dependencies using pip:
-
+```bash
 pip install -r requirements.txt
+```
+2. The dependencies include:
 
-The dependencies include:
+> requests: To handle HTTP requests.
 
-requests: To handle HTTP requests.
-
-Setting Up SerpAPI
+**Setting Up SerpAPI**
 
 To use this tool, you need an API key from SerpAPI:
 
-Go to SerpAPI.
+1. Go to SerpAPI.
 
-Sign up and obtain your API key.
+2. Sign up and obtain your API key.
 
-You'll need this key when running the program.
+3. You'll need this key when running the program.
 
-Running the Program
+**Running the Program**
 
 Run the script using Python:
-
+```bash
 python sercing.py
-
+```
 When prompted, follow these steps:
 
-Enter the domain you want to search files from (e.g., example.com).
+1. **Enter the domain** you want to search files from (e.g., example.com).
 
-Enter the file extensions you want to search for (e.g., pdf, docx). You can leave it blank to search for all common file types.
+2. **Enter the file extensions** you want to search for (e.g., pdf, docx). You can leave it blank to search for all common file types.
 
-Enter the folder where you want to save the downloaded files.
+3. **Enter the folder** where you want to save the downloaded files.
 
-Enter your SerpAPI API key.
+4. **Enter your SerpAPI API key.**
 
 The program will then use Google Dorking to search for files matching your criteria and display the results, allowing you to select which files to download. 🚀
 
-Example Usage
+**Example Usage**
 
     ███████╗███████╗██████╗ ██████╗  ██████╗ ██╗  ██╗██╗███╗   ██╗ ██████╗
     ██╔════╝██╔════╝██╔══██╗██╔══██╗██╔═══██╗██║  ██║██║████╗  ██║██╔════╝
@@ -89,33 +95,32 @@ Example Usage
 📝 Masukkan nomor file yang ingin diunduh (1-2), atau 0 untuk membatalkan: 1
 ✅ File 'report.pdf' berhasil diunduh ke 'downloads/report.pdf'
 
-📂 File Structure
+## 📂 File Structure
 
-sercing.py: The main script that performs the file search and download.
+- sercing.py: The main script that performs the file search and download.
+- requirements.txt: Lists the required dependencies for the project.
 
-requirements.txt: Lists the required dependencies for the project.
+## 📚 How It Works
 
-📚 How It Works
+**Search Using Dorking**: The script uses Google Dorking techniques to find files in the given domain.
 
-Search Using Dorking: The script uses Google Dorking techniques to find files in the given domain.
+**SerpAPI Integration**: All searches are powered by the SerpAPI service, which allows for accurate and efficient Google searches.
 
-SerpAPI Integration: All searches are powered by the SerpAPI service, which allows for accurate and efficient Google searches.
+**Download Manager**: Users can select specific files to download from the list of search results.
 
-Download Manager: Users can select specific files to download from the list of search results.
-
-🛠 Troubleshooting
+## 🛠 Troubleshooting
 
 No Results Found: Ensure that the domain entered is correct and has publicly accessible files. Also, check your API key and rate limits on SerpAPI.
 
 API Errors: Make sure your API key is valid and that you have enough search quota left for your SerpAPI account.
 
-💡 Tips
+## 💡 Tips
 
 Make sure to input the domain without "http://" or "https://".
 
 You can enter multiple file extensions separated by commas (e.g., pdf, xlsx, zip).
 
-⚠️ Disclaimer
+## ⚠️ Disclaimer
 
 Use this tool responsibly. Respect website rules and privacy policies. Make sure not to violate any terms of service of the website you are trying to scrape.
 
