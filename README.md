@@ -88,10 +88,10 @@ The program will then use Google Dorking to search for files matching your crite
 
 - 🔍 Proses pencarian sedang berlangsung...
 - 📄 File yang ditemukan:
-─────────────────────────────────────────────────────────
-  1. report.pdf
-  2. summary.docx
-─────────────────────────────────────────────────────────
+- 
+- 1. report.pdf
+- 2. summary.docx
+
 - 📝 Masukkan nomor file yang ingin diunduh (1-2), atau 0 untuk membatalkan: 1
 - ✅ File 'report.pdf' berhasil diunduh ke 'downloads/report.pdf'
 
